@@ -1,6 +1,6 @@
 ---
 title: "Introduction to LaTeX and BibTex"
-author: "Markup languages and reproducible programming in statistics"
+author: "Markup Languages and Reproducible Programming in Statistics"
 date: ""
 output: 
   ioslides_presentation:
@@ -16,17 +16,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # About the course
 
-##Format
+## Format
 - Every Monday till the end of the year:
   
     - 10 am - 12.45 pm
-    - This room
+    - Ruppert 005 & Ruppert 121
     - The first part of every meeting will be a lecture. 
     - Every second part will be hands-on / Q&A
 
 If you cannot make a meeting; I'd like to know beforehand. 
 
-**I'd strongly suggest to come to every meeting**
+### **I'd strongly suggest to participate in every meeting**
 
 ## Topics
 
@@ -37,7 +37,7 @@ If you cannot make a meeting; I'd like to know beforehand.
 5. Version control and GitHub repositories
 6. Presentations with rMarkdown
 7. GitHub pages and Shiny
-8. $\star$*Showcase your progress*
+8. $\star$ *Showcase your progress*
 
 $\star$ *In week 8 you have to showcase what you have mastered in this course.*
 
@@ -63,7 +63,7 @@ The final grade is computed as follows:
 Grading considers concepts like visual appearance, readability, usefulness, efficiency of the code. *Grading does not consider the theoretical or qualitative properties of the content*!
   
 ## Contact
-If you need any help outside of class hours, see [this link](https://www.dropbox.com/s/l72owxzysk7e2jg/Contacting_Gerko.html?dl=0)
+If you need any help outside of class hours, see [this link](Contacting_Gerko.html)
 
 - send me an e-mail at G.Vink@uu.nl' containing your question or a [MWE](https://en.wikipedia.org/wiki/Minimal_Working_Example):
 
@@ -71,9 +71,10 @@ If you need any help outside of class hours, see [this link](https://www.dropbox
     '.bib' file. 
     - if your problem is with 'R', send me the code and source files
     
-- G+ Hangouts: If you're really in a pickle and need a blazingly fast response
+- Whatsapp: If you're really in a pickle and need a blazingly fast response
 
-    - contact me at 'askgerko@gmail.com'
+- G+ Hangouts: If the problem warrants videa and screen sharing, I'll invite you to a G+ hangout
+    
 
 ## Goal of this course {.smaller}
 
@@ -95,7 +96,7 @@ If you need any help outside of class hours, see [this link](https://www.dropbox
 
 1. Choose a subject for your project
 2. Install TeX, an editor and a bibliography editor
-3. Request a GitHub educational discounted account
+3. Request a [GitHub educational discounted account](https://help.github.com/articles/applying-for-a-student-developer-pack/)
 4. Make exercise 1 and 2
 
 # $\LaTeX$
@@ -105,7 +106,7 @@ If you need any help outside of class hours, see [this link](https://www.dropbox
 LaTeX is a document preparation system
 
 - its goal is typesetting
-- it produces high quality type-setted documents
+- it produces high quality type-set documents
 - publishers use it
 - you can virtually produce anything in document form with LaTeX
 - it provides you with a system to focus solely on writing
@@ -116,7 +117,6 @@ LaTeX is a document preparation system
 
 I'll demonstrate to you a typical LaTeX document. 
 
-If you could not make it to class, and you feel the exercises are not sufficient for getting you started; please ask me: I'll be happy to show you
-in real life or through G+ Hangouts.
+If you could not make it to class, and you feel the exercises are not sufficient for getting you started; please ask me: I'll be happy to show you in real life or through G+ Hangouts.
 
 

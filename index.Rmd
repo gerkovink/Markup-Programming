@@ -161,6 +161,28 @@ All the best,
 
 [Gerko](www.gerkovink.com)
 
+### Supplementary materials and links
+
+The following link is very useful: 
+
+- [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
+
+### For fun
+
+<div>
+<img src="images/funny.pdf" width="50%">
+</div>
+
+[source](https://xkcd.com/184/) and [LaTeX code](images/funny.tex)
+
+## Column 2
+
+### Slides
+
+- [Slides Week 1](Wk1/Wk1_-_LaTeX_and_BibTeX.html) 
+
+You can print the presentation to pdf if you prefer a paginated format.
+ 
 ### Exercises
 
 - [Exercise 1](Wk1/Exercise 1/Exercise_1.html)
@@ -181,21 +203,6 @@ All the best,
   - [exercises.bib](Wk1/Exercise 2/Latex exercise/exercises.bib)
   - [Latex background](Wk1/Exercise 2/Latex exercise/Latex background/)[[zipped version]](Wk1/Exercise 2/Latex exercise/Latex background.zip)
 
-## Column 2
-
-### Supplementary materials and links
-
-The following link is very useful: 
-
-- [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
-
-### For fun
-
-<div>
-<img src="images/funny.pdf" width="50%">
-</div>
-
-[source](https://xkcd.com/184/) [LaTeX code](images/funny.tex)
 
 # Week 2
 
