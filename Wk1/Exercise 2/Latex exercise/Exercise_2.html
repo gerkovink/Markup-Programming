@@ -1491,13 +1491,15 @@ div.tocify {
 <ol style="list-style-type: decimal">
 <li>The standard citation environment in Tex</li>
 <li>The <a href="http://merkel.zoneo.net/Latex/natbib.php?lang=en"><code>natbib</code></a> citation environment</li>
+<li>The <a href="https://ctan.org/pkg/biblatex?lang=en"><code>biblatex</code></a> citation environment</li>
 </ol>
-<p>The difference between the two implementations is in the level of customization. The standard citation environment is simple, but limited. <code>natbib</code> allows you to customize pretty much anything. The good thing is that both implementations use the same front- and backend; only the calls differ:</p>
+<p>The difference between the implementations is in the level of customization. The standard citation environment is simple, but limited. <code>natbib</code> allows you to customize pretty much anything and <code>biblatex</code> provides an easier and more flexible interface and a better language localization that the other two options. The good thing is that the three implementations use the same sources; only the calls differ:</p>
 <ul>
 <li>to cite a publication in <code>tex</code>, use <code>\cite{}</code> to produce a <code>(Author, year)</code> reference, and use <code>\citeA{}</code> to produce a <code>Author (year)</code> reference (at least in APA style).</li>
 <li>in <code>natbib</code>, <code>\citep{}</code> produces the <code>(Author, year)</code> reference and <code>\citet{}</code> yields the <code>Author (year)</code> reference (when using APA style)</li>
+<li>in <code>biblatex</code>, you are better off with <a href="http://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf">this cheat sheet</a> to explore the possibilities</li>
 </ul>
-<p>So, why use <code>natbib</code> instead of the standard citation environment? First, <code>natbib</code> works with the <code>hyperref</code> package, which you should always use (see <a href="Wk1/Exercise%201/Exercise_1.html">Exercise 1</a>). Second, depending on the target journal for any research project, style conventions for referencing may differ. For example, in medicinal sciences the convention is to use numbered references (such as [1], [2] and [3-5]). In psychology, people adhere to the APA rules and references are adressed in so-called author-year style. <code>natbib</code> allows you to very quickly specify these styles, without any hassle. The standard citation environment does not fully allow for such implementations. Third, many journals use <code>natbib</code> themselves. So if you acquire the style files from the journal, you do not have to change all the <code>\cite{}</code>’s and <code>\citeA{}</code>’s.</p>
+<p>So, why not use thestandard citation environment? First, the additional packages work with the <code>hyperref</code> package, which you should always use (see <a href="https://www.gerkovink.com/Markup-Programming/Wk1/Exercise%201/Exercise_1.html">Exercise 1</a>). Second, depending on the target journal for any research project, style conventions for referencing may differ. For example, in medicinal sciences the convention is to use numbered references (such as [1], [2] and [3-5]). In psychology, people adhere to the APA rules and references are adressed in so-called author-year style. <code>natbib</code> allows you to very quickly specify these styles, without any hassle. The standard citation environment does not fully allow for such implementations. Third, many journals use <code>natbib</code> themselves. So if you acquire the style files from the journal, you do not have to change all the <code>\cite{}</code>’s and <code>\citeA{}</code>’s. This is also the reason why I will focus primarily on <code>natbib</code> in this course: Even though <code>biblatex</code> is more flexible; it has not been adopted by our community yet. Plus, you can use <code>natbib</code>’s citation environment in <code>biblatex</code>.</p>
 <hr />
 </div>
 <div id="bibtex" class="section level1">
@@ -1538,19 +1540,19 @@ div.tocify {
 <p>If you missed it earlier; <a href="http://merkel.zoneo.net/Latex/natbib.php?lang=en">here</a> you can find a very useful <code>natbib</code> reference sheet. For all exercises, use the <code>exercises.bib</code> bibliography and the <code>bib_template.tex</code> file from the course page. Specify the references such that you obtain the desired output.</p>
 <hr />
 <ol style="list-style-type: decimal">
-<li>Have a look at <a href="https://nl.sharelatex.com/learn/Bibliography_management_in_LaTeX">this page</a> and <a href="https://nl.sharelatex.com/learn/Bibliography_management_with_natbib">this page</a> for even more detail on <code>natbib</code> and <code>bibtex</code>.</li>
+<li>Have a look at <a href="https://nl.sharelatex.com/learn/Bibliography_management_in_LaTeX">this <code>biblatex</code> page</a> and <a href="https://nl.sharelatex.com/learn/Bibliography_management_with_natbib">this <code>natbib</code> page</a> for even more detail on <code>natbib</code> and <code>biblatex</code>.</li>
 <li>See how in the <code>bib_template.tex</code> file the first line of Section 2 refers back to Section 1 through <code>\ref{label}</code>.</li>
 <li>Study the examples in the <code>Latex background/Examples</code> folder. Especially study the example <code>Example4_natbib numbered.tex</code> as it provides you with a way of enclosing your bibliography in your <code>tex</code> file. Some journals require this.</li>
 </ol>
 <p>Create five documents:</p>
-<ol start="4" style="list-style-type: decimal">
+<ol style="list-style-type: decimal">
 <li>Produce a document named <code>Ex2V0.pdf</code> based on <code>bib_template.tex</code> with numbered references that are sorted alphabetically, but not compressed</li>
 <li>Produce a document named <code>Ex2V1.pdf</code> with numbered references that are sorted on order of appearance, but not compressed.</li>
 <li>Produce a document named <code>Ex2V2.pdf</code> with numbered references that are sorted on order of appearance and compressed.</li>
 <li>Produce a document named <code>Ex2V3.pdf</code> document in APA style. Make sure that reference URL’s are printed in the References Section.</li>
 <li>Produce a document named <code>Ex2V4.pdf</code> document in APA style, with references highlighted in black.</li>
 </ol>
-<p>Upload the documents to <a href="https://surfdrive.surf.nl/files/index.php/s/tiBnPyIZy8B9w73">SurfDrive</a> before the next lecture starts. I will post the code solutions after that lecture.</p>
+<p>You may use <code>biblatex</code> or <code>natbib</code> interchangeably. Upload the documents to <a href="https://surfdrive.surf.nl/files/index.php/s/tiBnPyIZy8B9w73">SurfDrive</a> before the next lecture starts. I will post the code solutions after that lecture.</p>
 <hr />
 <p><strong>IF YOU RUN INTO PROBLEMS: ASK ME!</strong> Do not spend too much time debugging your code; you can dedicate the rest of your career to that.</p>
 <hr />

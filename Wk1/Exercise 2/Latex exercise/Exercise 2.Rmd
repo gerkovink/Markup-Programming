@@ -28,13 +28,15 @@ There are two general (read: widely used) ways of referencing in `Tex`:
 
 1. The standard citation environment in Tex
 2. The [`natbib`](http://merkel.zoneo.net/Latex/natbib.php?lang=en) citation environment
+3. The [`biblatex`](https://ctan.org/pkg/biblatex?lang=en) citation environment
 
-The difference between the two implementations is in the level of customization. The standard citation environment is simple, but limited. `natbib` allows you to customize pretty much anything. The good thing is that both implementations use the same front- and backend; only the calls differ:
+The difference between the implementations is in the level of customization. The standard citation environment is simple, but limited. `natbib` allows you to customize pretty much anything and `biblatex` provides an easier and more flexible interface and a better language localization that the other two options. The good thing is that the three implementations use the same sources; only the calls differ:
 
 - to cite a publication in `tex`, use `\cite{}` to produce a `(Author, year)` reference, and use `\citeA{}` to produce a `Author (year)` reference (at least in APA style). 
 - in `natbib`, `\citep{}` produces the `(Author, year)` reference and `\citet{}` yields the `Author (year)` reference (when using APA style)
+- in `biblatex`, you are better off with [this cheat sheet](http://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf) to explore the possibilities
 
-So, why use `natbib` instead of the standard citation environment? First, `natbib` works with the `hyperref` package, which you should always use (see [Exercise 1](Wk1/Exercise%201/Exercise_1.html)). Second, depending on the target journal for any research project, style conventions for referencing may differ. For example, in medicinal sciences the convention is to use numbered references (such as [1], [2] and [3-5]). In psychology, people adhere to the APA rules and references are adressed in so-called author-year style. `natbib` allows you to very quickly specify these styles, without any hassle. The standard citation environment does not fully allow for such implementations. Third, many journals use `natbib` themselves. So if you acquire the style files from the journal, you do not have to change all the `\cite{}`'s and `\citeA{}`'s. 
+So, why not use thestandard citation environment? First, the additional packages work with the `hyperref` package, which you should always use (see [Exercise 1](https://www.gerkovink.com/Markup-Programming/Wk1/Exercise%201/Exercise_1.html)). Second, depending on the target journal for any research project, style conventions for referencing may differ. For example, in medicinal sciences the convention is to use numbered references (such as [1], [2] and [3-5]). In psychology, people adhere to the APA rules and references are adressed in so-called author-year style. `natbib` allows you to very quickly specify these styles, without any hassle. The standard citation environment does not fully allow for such implementations. Third, many journals use `natbib` themselves. So if you acquire the style files from the journal, you do not have to change all the `\cite{}`'s and `\citeA{}`'s. This is also the reason why I will focus primarily on `natbib` in this course: Even though `biblatex` is more flexible; it has not been adopted by our community yet. Plus, you can use `natbib`'s citation environment in `biblatex`.
 
 ---
 
@@ -82,19 +84,19 @@ If you missed it earlier; [here](http://merkel.zoneo.net/Latex/natbib.php?lang=e
 
 ---
 
-1. Have a look at [this page](https://nl.sharelatex.com/learn/Bibliography_management_in_LaTeX) and [this page](https://nl.sharelatex.com/learn/Bibliography_management_with_natbib) for even more detail on `natbib` and `bibtex`. 
+1. Have a look at [this `biblatex` page](https://nl.sharelatex.com/learn/Bibliography_management_in_LaTeX) and [this `natbib` page](https://nl.sharelatex.com/learn/Bibliography_management_with_natbib) for even more detail on `natbib` and `biblatex`. 
 2. See how in the `bib_template.tex` file the first line of Section 2 refers back to Section 1 through `\ref{label}`.
 3. Study the examples in the `Latex background/Examples` folder. Especially study the example `Example4_natbib numbered.tex` as it provides you with a way of enclosing your bibliography in your `tex` file. Some journals require this. 
 
 Create five documents:
 
-4. Produce a document named `Ex2V0.pdf` based on `bib_template.tex` with numbered references that are sorted alphabetically, but not compressed
-5. Produce a document named `Ex2V1.pdf` with numbered references that are sorted on order of appearance, but not compressed.
-5. Produce a document named `Ex2V2.pdf` with numbered references that are sorted on order of appearance and compressed.
-6. Produce a document named `Ex2V3.pdf` document in APA style. Make sure that reference URL's are printed in the References Section. 
-7. Produce a document named `Ex2V4.pdf` document in APA style, with references highlighted in black. 
+1. Produce a document named `Ex2V0.pdf` based on `bib_template.tex` with numbered references that are sorted alphabetically, but not compressed
+2. Produce a document named `Ex2V1.pdf` with numbered references that are sorted on order of appearance, but not compressed.
+3. Produce a document named `Ex2V2.pdf` with numbered references that are sorted on order of appearance and compressed.
+4. Produce a document named `Ex2V3.pdf` document in APA style. Make sure that reference URL's are printed in the References Section. 
+5. Produce a document named `Ex2V4.pdf` document in APA style, with references highlighted in black. 
 
-Upload the documents to [SurfDrive](https://surfdrive.surf.nl/files/index.php/s/tiBnPyIZy8B9w73) before the next lecture starts. I will post the code solutions after that lecture.
+You may use `biblatex` or `natbib` interchangeably. Upload the documents to [SurfDrive](https://surfdrive.surf.nl/files/index.php/s/tiBnPyIZy8B9w73) before the next lecture starts. I will post the code solutions after that lecture.
 
 ---
 
