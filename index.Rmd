@@ -208,13 +208,37 @@ You can print the presentation to pdf if you prefer a paginated format.
 
 ## Column 1
 
-### This Week
+### Beamer and equations
+
+This week we'll cover equations in \LaTeX - I'm sure you'll love it - and using `LaTeX` to design slide show presentations. Later on in this course, we'll focus on creating presentation with Markdown - which is much easier, but also less flexible in obtaining perfect detailed typesetting. For now, getting to know the basics of presentations and equations in `LaTeX` will pay off in the future. 
+
+All the best, 
+
+[Gerko](www.gerkovink.com)
+
+### Supplementary materials and links
+
+The following links are very useful: 
+
+- [`beamer` quickstart](https://userpages.umbc.edu/~rostamia/beamer/)
+- [`beamer` themes](https://hartwork.org/beamer-theme-matrix/)
+- [Short and fancy intro to `beamer`](https://math-linux.com/latex-26/article/how-to-make-a-presentation-with-latex-introduction-to-beamer)
+
+
+### For fun
 
 ## Column 2
 
+### Slides
+
+- [Slides Week 2]() 
+
+You can print the presentation to pdf if you prefer a paginated format.
+ 
 ### Exercise
 
-### Supplementary materials and links
+- [Exercise 3](Wk2/Exercise 3/Exercise_3.html)
+- [beamer_exercise.pdf](Wk2/Exercise 3/beamer_exercise.pdf)
 
 # Week 3
 
