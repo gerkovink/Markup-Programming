@@ -202,6 +202,9 @@ You can print the presentation to pdf if you prefer a paginated format.
   - [exercises.bib](Wk1/Exercise 2/Latex exercise/exercises.bib)
   - [Latex background.zip](Wk1/Exercise 2/Latex exercise/Latex background.zip)
 
+***
+
+[Solutions to the excercises](Wk1/Solutions.zip)
 
 # Week 2
 
