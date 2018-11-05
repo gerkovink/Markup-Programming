@@ -169,7 +169,7 @@ The following link is very useful:
 
 ### For fun
 <div>
-<img src="https://www.gerkovink.com/Markup-Programming/images/funny.pdf" width="50%">
+<img src="https://www.gerkovink.com/Markup-Programming/images/funny.png" width="50%">
 </div>
 
 [source](https://xkcd.com/184/) and [LaTeX code](images/funny.tex)
