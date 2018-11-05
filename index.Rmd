@@ -163,7 +163,7 @@ All the best,
 
 ### Supplementary materials and links
 
-The following link is very useful: 
+The following links may be very useful: 
 
 - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
 
