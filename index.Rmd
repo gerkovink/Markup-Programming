@@ -183,6 +183,7 @@ The following link is very useful:
 You can print the presentation to pdf if you prefer a paginated format.
  
 ### Exercises
+[Solutions to the excercises!](Wk1/Solutions.zip)
 
 - [Exercise 1](Wk1/Exercise 1/Exercise_1.html)
 
