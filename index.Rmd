@@ -168,9 +168,8 @@ The following link is very useful:
 - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
 
 ### For fun
-
 <div>
-<img src="images/funny.pdf" width="50%">
+<img src="https://www.gerkovink.com/Markup-Programming/images/funny.pdf" width="50%">
 </div>
 
 [source](https://xkcd.com/184/) and [LaTeX code](images/funny.tex)
@@ -201,7 +200,7 @@ You can print the presentation to pdf if you prefer a paginated format.
   - [bib_template.tex](Wk1/Exercise 2/Latex exercise/bib_template.tex)
   - [bib_template.pdf](Wk1/Exercise 2/Latex exercise/bib_template.pdf)
   - [exercises.bib](Wk1/Exercise 2/Latex exercise/exercises.bib)
-  - [Latex background](Wk1/Exercise 2/Latex exercise/Latex background/)[[zipped version]](Wk1/Exercise 2/Latex exercise/Latex background.zip)
+  - [Latex background.zip](Wk1/Exercise 2/Latex exercise/Latex background.zip)
 
 
 # Week 2
@@ -210,7 +209,7 @@ You can print the presentation to pdf if you prefer a paginated format.
 
 ### Beamer and equations
 
-This week we'll cover equations in \LaTeX - I'm sure you'll love it - and using `LaTeX` to design slide show presentations. Later on in this course, we'll focus on creating presentation with Markdown - which is much easier, but also less flexible in obtaining perfect detailed typesetting. For now, getting to know the basics of presentations and equations in `LaTeX` will pay off in the future. 
+This week we'll cover equations in `LaTeX` - I'm sure you'll love it. We will also use `LaTeX` to design slide show presentations. Later on in this course, we'll focus on creating presentation with Markdown - which is much easier, but also less flexible in obtaining perfect detailed typesetting. For now, getting to know the basics of presentations and equations in `LaTeX` will pay off in the future. 
 
 All the best, 
 
@@ -223,22 +222,27 @@ The following links are very useful:
 - [`beamer` quickstart](https://userpages.umbc.edu/~rostamia/beamer/)
 - [`beamer` themes](https://hartwork.org/beamer-theme-matrix/)
 - [Short and fancy intro to `beamer`](https://math-linux.com/latex-26/article/how-to-make-a-presentation-with-latex-introduction-to-beamer)
+- [Math symbols cheat sheet](Wk2/Exercise 3/LaTeX background 2/Math in LaTeX/Math Symbols.pdf)
+- [Short math guide](Wk2/Exercise 3/LaTeX background 2/Math in LaTeX/short-math-guide.pdf)
+
 
 
 ### For fun
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My wife asked me what machine learning is and I said: remember when we ordered the hot plate for the boat and amazon suggested buying all the equipment needed to make a full meth lab?</p>&mdash; (((Kane Baccigalupi))) (@rubyghetto) <a href="https://twitter.com/rubyghetto/status/1058220004301127680?ref_src=twsrc%5Etfw">November 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Column 2
 
-### Slides
-
-- [Slides Week 2]() 
-
-You can print the presentation to pdf if you prefer a paginated format.
- 
 ### Exercise
+
+This week's excercise:
 
 - [Exercise 3](Wk2/Exercise 3/Exercise_3.html)
 - [beamer_exercise.pdf](Wk2/Exercise 3/beamer_exercise.pdf)
+- [Latex background](Wk2/Exercise 3/LaTeX background.zip)
+
+ 
 
 # Week 3
 
