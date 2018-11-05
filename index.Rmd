@@ -167,6 +167,10 @@ The following link is very useful:
 
 - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
 
+If your references contain long urls:
+
+- [a fix](https://tex.stackexchange.com/questions/287748/references-not-respecting-margins-with-biblatex)
+
 ### For fun
 <div>
 <img src="https://www.gerkovink.com/Markup-Programming/images/funny.png" width="50%">
