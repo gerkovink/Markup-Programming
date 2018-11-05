@@ -23,7 +23,7 @@ Gerko
 ---
 
 # Presentations with beamer
-We use the `beamer` package to create presentations with `tex`. If all is well, you should now be able to create and compile your own `tex` documents (if not, please ask me for help!). Therefore I refer you to [this page](http://userpages.umbc.edu/~rostamia/beamer/) and to the `Beamer_Userguide.pdf` file on [this week's course page](). For the more tech-savvy users among you, [this](http://www.math-linux.com/latex-26/article/how-to-make-a-presentation-with-latex-introduction-to-beamer) discusses fancy stuff with `beamer`. You can simply ignore the part about `linux` and focus on the `tex` code. 
+We use the `beamer` package to create presentations with `tex`. If all is well, you should now be able to create and compile your own `tex` documents (if not, please ask me for help!). Therefore I refer you to [this page](http://userpages.umbc.edu/~rostamia/beamer/) and to the `Beamer_Userguide.pdf` file on [this week's course page](https://www.gerkovink.com/Markup-Programming/#week-2). For the more tech-savvy users among you, [this](http://www.math-linux.com/latex-26/article/how-to-make-a-presentation-with-latex-introduction-to-beamer) discusses fancy stuff with `beamer`. You can simply ignore the part about `linux` and focus on the `tex` code. 
 
 ---
 
@@ -33,7 +33,7 @@ The [beamer theme matrix](https://www.hartwork.org/beamer-theme-matrix/) gives y
 ---
 
 # Mathematical notation
-Anything that is presented between `$`-signs is printed as a mathematical element: the use of `$` makes `LaTeX` enter *math mode*. Most often, the `$` operator is used to denote in-line equations. For example, `$y_i = a + \beta x_i + \epsilon_i$` is printed as $y_i = a + \beta x_i + \epsilon_i$. To find out what the `tex` code for the mathematical notation elements is (and much more) have a look at the `Math Symbols` document on `BlackBoard` and in the `DropBox`.  
+Anything that is presented between `$`-signs is printed as a mathematical element: the use of `$` makes `LaTeX` enter *math mode*. Most often, the `$` operator is used to denote in-line equations. For example, `$y_i = a + \beta x_i + \epsilon_i$` is printed as $y_i = a + \beta x_i + \epsilon_i$. To find out what the `tex` code for the mathematical notation elements is (and much more) have a look at the [`Math Symbols`](LaTeX background/Math in LaTeX/Math Symbols.pdf) document on [this week's course page](https://www.gerkovink.com/Markup-Programming/#week-2)  
 
 To present mathematical equations, use
 
