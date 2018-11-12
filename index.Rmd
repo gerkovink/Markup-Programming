@@ -187,7 +187,6 @@ If your references contain long urls:
 You can print the presentation to pdf if you prefer a paginated format.
  
 ### Exercises
-[Solutions to the excercises!](Wk1/Solutions.zip)
 
 - [Exercise 1](Wk1/Exercise 1/Exercise_1.html)
 
@@ -250,19 +249,43 @@ This week's excercise:
 - [beamer_exercise.pdf](Wk2/Exercise 3/beamer_exercise.pdf)
 - [Latex background](Wk2/Exercise 3/LaTeX background.zip)
 
+***
+
+- [Solution to the exercise](Wk2/Solution.zip)
+
  
 
 # Week 3
 
 ## Column 1
 
-### This Week
+### Beamer and equations
+
+This week we'll cover tables and figures in `LaTeX` 
+
+All the best, 
+
+[Gerko](www.gerkovink.com)
+
+### Supplementary materials and links
+
+The following links are very useful: 
+
+- [The Not So Short Introduction to `LaTeX`](http://tug.ctan.org/info/lshort/english/lshort.pdf) by Tobias Oetiker, Hubert Partl, Irene Hyna and Elisabeth Schlegl
+
+### For fun
+**Spoiler alert for [Silicon Valley](https://www.hbo.com/silicon-valley/cast-and-crew)**
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/SsoOG6ZeyUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Column 2
 
 ### Exercise
 
-### Supplementary materials and links
+This week's excercise:
+
+- [Exercise 4](Wk3/Exercise_4.html)
+- [Latex background.zip](Wk3/LaTeX background.zip)
 
 # Week 4
 
