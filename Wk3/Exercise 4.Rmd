@@ -72,11 +72,17 @@ data.all <- cbind(data = data,
                   exponent = exp(data))
 ```
 
-to generate the graphs that allow you to create the following page in $\LaTeX$. The exercise is to recreate this page yourself.
+to generate the graphs that allow you to create the following page in $\LaTeX$. The exercise is to recreate [this page](Answer/Recreate this.pdf) yourself:
+
+---
 
 <center>
-<img src="Answer/2. Solution in Tex.pdf" alt="HTML5 Icon" width = 100%>
+<img src="Answer/Recreate This File.pdf" alt="HTML5 Icon" width = 100%>
 </center>
+
+---
+
+***If the page does not render in your browser, please click [this link](Answer/Recreate this.pdf) ***
 
 ---
 
