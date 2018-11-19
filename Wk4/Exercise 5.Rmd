@@ -12,7 +12,7 @@ output:
 
 ---
 
-Dear all, 
+Dear students, 
 
 Last week we learned how to use `R` to generate the tables and graphs that can be
 directly implemented into $\LaTeX$. This week we will learn how to use `rmarkdown`
