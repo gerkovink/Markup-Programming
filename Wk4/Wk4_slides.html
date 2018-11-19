@@ -3127,9 +3127,9 @@ if (document.readyState !== "loading" &&
           </hgroup>
   </slide>
 
-<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>The blueprint of <code>R</code></h2></hgroup><article  class="smaller " id="the-blueprint-of-r">
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>The blueprint of <code>R</code></h2></hgroup><article  id="the-blueprint-of-r" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>Layers in <code>R</code></h2></hgroup><article  class="smaller " id="layers-in-r">
+</article></slide><slide class=""><hgroup><h2>Layers in <code>R</code></h2></hgroup><article  id="layers-in-r" class="smaller ">
 
 <p>There are several &lsquo;layers&rsquo; in <code>R</code>. Some layers you are allowed to fiddle around in, some are forbidden. In general there is the following distinction:</p>
 
@@ -3141,7 +3141,7 @@ if (document.readyState !== "loading" &&
 <li>Namespaces</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Environments</h2></hgroup><article  class="smaller " id="environments">
+</article></slide><slide class=""><hgroup><h2>Environments</h2></hgroup><article  id="environments" class="smaller ">
 
 <p>The global environment can be seen as a olympic-size swimming pool. Everything you do has its place there.</p>
 
@@ -3151,7 +3151,7 @@ if (document.readyState !== "loading" &&
 <li>A user environment would by default not have access to other environments</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Functions</h2></hgroup><article  class="smaller " id="functions">
+</article></slide><slide class=""><hgroup><h2>Functions</h2></hgroup><article  id="functions" class="smaller ">
 
 <ul>
 <li><p>If you create a function, it is positioned in the global environment.</p></li>
@@ -3159,7 +3159,7 @@ if (document.readyState !== "loading" &&
 <li><p>See functions as a shampoo bottle in a swimming pool to which you add some water. If you’d like to see the color of the mixture, you’d have to squeeze the bottle for it to come out.</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Packages</h2></hgroup><article  class="smaller " id="packages">
+</article></slide><slide class=""><hgroup><h2>Packages</h2></hgroup><article  id="packages" class="smaller ">
 
 <ul>
 <li><p>Packages have their own space.</p>
@@ -3170,7 +3170,7 @@ if (document.readyState !== "loading" &&
 </ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Loading packages</h2></hgroup><article  class="smaller " id="loading-packages">
+</article></slide><slide class=""><hgroup><h2>Loading packages</h2></hgroup><article  id="loading-packages" class="smaller ">
 
 <p>There are two ways to load a package in <code>R</code></p>
 
@@ -3180,7 +3180,7 @@ if (document.readyState !== "loading" &&
 
 <pre class = 'prettyprint lang-r'>require(stats)</pre>
 
-</article></slide><slide class=""><hgroup><h2>Namespaces</h2></hgroup><article  class="smaller " id="namespaces">
+</article></slide><slide class=""><hgroup><h2>Namespaces</h2></hgroup><article  id="namespaces" class="smaller ">
 
 <ul>
 <li>Namespaces. These are the deeper layers that feed new water to the surface of the mini pools.
@@ -3192,9 +3192,9 @@ if (document.readyState !== "loading" &&
 </ul></li>
 </ul>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2><code>R</code> in depth</h2></hgroup><article  class="smaller " id="r-in-depth">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2><code>R</code> in depth</h2></hgroup><article  id="r-in-depth" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>Workspaces and why you should sometimes save them</h2></hgroup><article  class="smaller " id="workspaces-and-why-you-should-sometimes-save-them">
+</article></slide><slide class=""><hgroup><h2>Workspaces and why you should sometimes save them</h2></hgroup><article  id="workspaces-and-why-you-should-sometimes-save-them" class="smaller ">
 
 <p>A workspace contains all changes you made to environments, functions and namespaces.</p>
 
@@ -3208,7 +3208,7 @@ if (document.readyState !== "loading" &&
 
 <p>Workspaces are compressed and require relatively little memory when stored. The compression is very efficient and beats reloading large datasets from raw text.</p>
 
-</article></slide><slide class=""><hgroup><h2>History and why it is useful</h2></hgroup><article  class="smaller " id="history-and-why-it-is-useful">
+</article></slide><slide class=""><hgroup><h2>History and why it is useful</h2></hgroup><article  id="history-and-why-it-is-useful" class="smaller ">
 
 <p><code>R</code> by default saves (part of) the code history and <code>RStudio</code> expands this functionality greatly.</p>
 
@@ -3223,9 +3223,9 @@ if (document.readyState !== "loading" &&
 </ol></li>
 </ul>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>RStudio</h2></hgroup><article  class="smaller " id="rstudio">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>RStudio</h2></hgroup><article  id="rstudio" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>Why <code>RStudio</code></h2></hgroup><article  class="smaller " id="why-rstudio">
+</article></slide><slide class=""><hgroup><h2>Why <code>RStudio</code></h2></hgroup><article  id="why-rstudio" class="smaller ">
 
 <ul>
 <li>Aggregates all convenient information and procedures into one single place</li>
@@ -3236,7 +3236,7 @@ if (document.readyState !== "loading" &&
 <li>Allows for integration with version control routines, such as Git (next week).</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Working in projects in <code>RStudio</code></h2></hgroup><article  class="smaller " id="working-in-projects-in-rstudio">
+</article></slide><slide class=""><hgroup><h2>Working in projects in <code>RStudio</code></h2></hgroup><article  id="working-in-projects-in-rstudio" class="smaller ">
 
 <ul>
 <li>Every project has its own history</li>
@@ -3246,9 +3246,9 @@ if (document.readyState !== "loading" &&
 <li>R-studio projects can relate to Git (or other online) repositories</li>
 </ul>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Archiving</h2></hgroup><article  class="smaller " id="archiving">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Archiving</h2></hgroup><article  id="archiving" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>Archiving</h2></hgroup><article  class="smaller smaller" id="archiving-1">
+</article></slide><slide class=""><hgroup><h2>Archiving</h2></hgroup><article  id="archiving-1" class="smaller smaller">
 
 <p>There may be tons of reasons for archiving</p>
 
@@ -3272,7 +3272,7 @@ if (document.readyState !== "loading" &&
 
 <p>In between there are many choices to be made (e.g. data throughput processes) and without documenting every step, the reproducibility of your work may be at stake.</p>
 
-</article></slide><slide class=""><hgroup><h2>Replicable vs Reproducible</h2></hgroup><article  class="smaller " id="replicable-vs-reproducible">
+</article></slide><slide class=""><hgroup><h2>Replicable vs Reproducible</h2></hgroup><article  id="replicable-vs-reproducible" class="smaller ">
 
 <p><strong><em>Research results are replicable if there is sufficient information available for independent researchers to make the same findings using the same procedures. <a href='https://gking.harvard.edu/files/gking/files/replication.pdf' title=''>(Gary King, 1995)</a></em></strong></p>
 
@@ -3296,16 +3296,9 @@ if (document.readyState !== "loading" &&
 <li>Higher research impact - more likely to be picked up and cited</li>
 </ul>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Random seeds</h2></hgroup><article  class="smaller " id="random-seeds">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Random seeds</h2></hgroup><article  id="random-seeds" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>We can reproduce individual samples</h2></hgroup><article  class="smaller " id="we-can-reproduce-individual-samples">
-
-<pre class = 'prettyprint lang-r'>set.seed(123)
-sample(1:18, size = 50, replace = TRUE)</pre>
-
-<pre >##  [1]  6 15  8 16 17  1 10 17 10  9 18  9 13 11  2 17  5  1  6 18 17 13 12
-## [24] 18 12 13 10 11  6  3 18 17 13 15  1  9 14  4  6  5  3  8  8  7  3  3
-## [47]  5  9  5 16</pre>
+</article></slide><slide class=""><hgroup><h2>We can reproduce individual samples</h2></hgroup><article  id="we-can-reproduce-individual-samples" class="smaller ">
 
 <pre class = 'prettyprint lang-r'>set.seed(123)
 sample(1:18, size = 50, replace = TRUE)</pre>
@@ -3314,7 +3307,14 @@ sample(1:18, size = 50, replace = TRUE)</pre>
 ## [24] 18 12 13 10 11  6  3 18 17 13 15  1  9 14  4  6  5  3  8  8  7  3  3
 ## [47]  5  9  5 16</pre>
 
-</article></slide><slide class=""><hgroup><h2>We can reproduce a chain of samples</h2></hgroup><article  class="smaller " id="we-can-reproduce-a-chain-of-samples">
+<pre class = 'prettyprint lang-r'>set.seed(123)
+sample(1:18, size = 50, replace = TRUE)</pre>
+
+<pre >##  [1]  6 15  8 16 17  1 10 17 10  9 18  9 13 11  2 17  5  1  6 18 17 13 12
+## [24] 18 12 13 10 11  6  3 18 17 13 15  1  9 14  4  6  5  3  8  8  7  3  3
+## [47]  5  9  5 16</pre>
+
+</article></slide><slide class=""><hgroup><h2>We can reproduce a chain of samples</h2></hgroup><article  id="we-can-reproduce-a-chain-of-samples" class="smaller ">
 
 <pre class = 'prettyprint lang-r'>set.seed(123)
 sample(1:18, size = 5, replace = TRUE)</pre>
@@ -3334,7 +3334,7 @@ sample(1:18, size = 5, replace = TRUE)</pre>
 
 <pre >## [1]  1 10 17 10  9 18  9</pre>
 
-</article></slide><slide class=""><hgroup><h2>The random seed</h2></hgroup><article  class="smaller " id="the-random-seed">
+</article></slide><slide class=""><hgroup><h2>The random seed</h2></hgroup><article  id="the-random-seed" class="smaller ">
 
 <p>The random seed is a number used to initialize the pseudo-random number generator</p>
 
@@ -3353,7 +3353,7 @@ sample(1:18, size = 5, replace = TRUE)</pre>
 <li>It merely forms the starting point of the algorithm for which the results are random.</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Why fix the random seed</h2></hgroup><article  class="smaller " id="why-fix-the-random-seed">
+</article></slide><slide class=""><hgroup><h2>Why fix the random seed</h2></hgroup><article  id="why-fix-the-random-seed" class="smaller ">
 
 <p>When an <code>R</code> instance is started, there is initially no seed. In that case, <code>R</code> will create one from the current time and process ID.</p>
 
@@ -3376,7 +3376,7 @@ sample(1:18, size = 5, replace = TRUE)</pre>
 </ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Random seeds</h2></hgroup><article  class="smaller " id="random-seeds-1">
+</article></slide><slide class=""><hgroup><h2>Random seeds</h2></hgroup><article  id="random-seeds-1" class="smaller ">
 
 <center>
 
@@ -3384,7 +3384,7 @@ sample(1:18, size = 5, replace = TRUE)</pre>
 
 </center>
 
-</article></slide><slide class=""><hgroup><h2>Random processes</h2></hgroup><article  class="smaller " id="random-processes">
+</article></slide><slide class=""><hgroup><h2>Random processes</h2></hgroup><article  id="random-processes" class="smaller ">
 
 <center>
 
@@ -3392,9 +3392,9 @@ sample(1:18, size = 5, replace = TRUE)</pre>
 
 </center>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2><code>rmarkdown</code></h2></hgroup><article  class="smaller " id="rmarkdown">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2><code>rmarkdown</code></h2></hgroup><article  id="rmarkdown" class="smaller ">
 
-</article></slide><slide class=""><hgroup><h2>Why <code>rmarkdown</code></h2></hgroup><article  class="smaller " id="why-rmarkdown">
+</article></slide><slide class=""><hgroup><h2>Why <code>rmarkdown</code></h2></hgroup><article  id="why-rmarkdown" class="smaller ">
 
 <p><code>rmarkdown</code> in <code>RStudio</code> provides us with a platform that allows</p>
 
@@ -3407,7 +3407,7 @@ sample(1:18, size = 5, replace = TRUE)</pre>
 <li>a minutely documented log of every code or process edit (<code>.git</code>)</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>For next week</h2></hgroup><article  class="smaller " id="for-next-week">
+</article></slide><slide class=""><hgroup><h2>For next week</h2></hgroup><article  id="for-next-week" class="smaller ">
 
 <p>Don’t forget to apply for a <a href='https://education.github.com' title=''>GitHub educational discount</a>. You’ll need it from next week on.</p></article></slide>
 

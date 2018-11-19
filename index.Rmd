@@ -288,16 +288,43 @@ This week's excercise:
 - [Latex background.zip](Wk3/LaTeX background.zip)
 
 # Week 4
-
 ## Column 1
 
-### This Week
+### Beamer and equations
+
+This week we'll cover reproducible workflows with [`rmarkdown`](https://rmarkdown.rstudio.com) in [`RStudio`](https://www.rstudio.com)
+
+All the best, 
+
+[Gerko](www.gerkovink.com)
+
+### For real
+<iframe src="https://player.vimeo.com/video/178485416?color=428bca&title=0&byline=0&portrait=0" width="500" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/178485416">What is R Markdown?</a> from <a href="https://vimeo.com/rstudioinc">RStudio, Inc.</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+### Supplementary materials and links
+
+The following links are very useful: 
+
+- [RStudio's 'Getting Started' with `rmarkdown`](https://rmarkdown.rstudio.com/lesson-2.html)
 
 ## Column 2
 
-### Exercise
+### Exercise and lecture
 
-### Supplementary materials and links
+- [Lecture Wk4](Wk4/Wk4_slides.html)
+- [Exercise 5.html](Wk4/Exercise_5.html)
+- [Exercise 5.Rmd](Wk4/Exercise 5.Rmd)
+- [Background.zip](Wk4/Background.zip)
+
+### For fun
+<div> 
+<center>
+<img src="Wk4/forfun.jpg" width="60%">
+</center>
+</div>
+
+[source](https://geekandpoke.typepad.com/geekandpoke/2009/07/the-art-of-programming-part-2.html)
 
 # Week 5
 
