@@ -312,6 +312,8 @@ The following links are very useful:
 
 ### Exercise and lecture
 
+This week's documents:
+
 - [Lecture Wk4](Wk4/Wk4_slides.html)
 - [Exercise 5.html](Wk4/Exercise_5.html)
 - [Exercise 5.Rmd](Wk4/Exercise 5.Rmd)
