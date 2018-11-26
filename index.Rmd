@@ -388,7 +388,7 @@ This week's documents:
 ## Column 1
 
 ### This Week
-This is a demonstration
+A real demonstration this is. 
 
 
 ## Column 2
