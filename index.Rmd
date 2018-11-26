@@ -292,7 +292,7 @@ This week's excercise:
 # Week 4
 ## Column 1
 
-### Beamer and equations
+### Reproducible workflows
 
 This week we'll cover reproducible workflows with [`rmarkdown`](https://rmarkdown.rstudio.com) in [`RStudio`](https://www.rstudio.com)
 
@@ -337,13 +337,49 @@ This week's documents:
 
 ## Column 1
 
-### This Week
+### Beamer and equations
+
+This week we’ll cover version control with [git](https://git-scm.com) in [`RStudio`](https://www.rstudio.com)
+
+All the best, 
+
+[Gerko](www.gerkovink.com)
+
+### For fun
+<div> 
+<center>
+<img src="Wk5/forfun.png" width="60%">
+</center>
+</div>
+
+[source](https://dzone.com/articles/git-forked)
+
+### Supplementary materials and links
+
+The following links are very useful:
+
+- [GitHub Glossary](https://help.github.com/articles/github-glossary) for all terminology
+- [This online book](https://git-scm.com/book/en/v2) is most comprehensive as a resource
+- [use this webpage](http://try.github.io) to try and experience `git` via a chain of tutorials
 
 ## Column 2
 
-### Exercise
+### Exercise and lecture
 
-### Supplementary materials and links
+This week's documents:
+
+- [Exercise 6.html](Wk5/Exercise_6_-_Git_and_GitHub.html)
+- [Exercise 6.Rmd](Wk5/Exercise 6 - Git and GitHub.Rmd)
+- [Solution to exercise 6](Wk5/Solution Ex6.mp4)
+
+### For fun 2
+<div> 
+<center>
+<img src="Wk5/forfun2.png" width="60%">
+</center>
+</div>
+
+[source](https://imgs.xkcd.com/comics/git.png)
 
 # Week 6
 
