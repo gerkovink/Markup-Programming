@@ -323,6 +323,8 @@ This week's documents:
 - [Exercise 5.html](Wk4/Exercise_5.html)
 - [Exercise 5.Rmd](Wk4/Exercise 5.Rmd)
 - [Background.zip](Wk4/Background.zip)
+- [Solution to the exercise in `Rmd`](Wk4/Solution Ex5/Solution_to_Ex5.Rmd)
+- [Solution to the exercise in `html`](Wk4/Solution Ex5/Solution_to_Ex5.html)
 
 ### For fun
 <div> 
