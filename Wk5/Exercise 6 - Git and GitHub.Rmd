@@ -60,16 +60,16 @@ You can see that this process requires package `devtools` that expands the `R` f
 
 ---
 
-####Installing `Git`
+#### Installing `Git`
 
-#####Installing on Mac
+##### Installing on Mac
 I suggest you install `Git` by downloading and installing [`GitHub Desktop`](https://desktop.github.com). `GitHub`'s desktop application is a nice GUI and, naturally, integrates well into the repository workflow on `GitHub`. 
 
 When installed, you can go to `GitHub Desktop > Install Command Line Tool`
 
 After a reboot, all should be set. 
 
-#####Installing on Windows
+##### Installing on Windows
 Download and install [`Git for Windows`](https://git-for-windows.github.io), Then download and install [`GitHub Desktop`](https://desktop.github.com). `GitHub`'s desktop application is a nice GUI and, naturally, integrates well into the repository workflow on `GitHub`. 
 
 After a reboot, all should be set. 
@@ -81,7 +81,7 @@ Ultimately, you'll want to learn how to use `Git` through the command line. It o
 
 ---
 
-####`Git` and `RStudio`
+#### `Git` and `RStudio`
 
 To link `Git` and `RStudio`, follow [this document](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 
@@ -124,7 +124,7 @@ In `RStudio`, paste the generated token in the password field when `RStudio` ask
 
 ---
 
-####Exercise
+#### Exercise
 
 Add `Git` functionality to the project of last week's exercise and publish that project on GitHub. 
 
