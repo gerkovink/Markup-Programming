@@ -345,6 +345,14 @@ All the best,
 
 [Gerko](www.gerkovink.com)
 
+### Supplementary materials and links
+
+The following links are very useful:
+
+- [GitHub Glossary](https://help.github.com/articles/github-glossary) for all terminology
+- [This online book](https://git-scm.com/book/en/v2) is most comprehensive as a resource
+- [Use this webpage](http://try.github.io) to try and experience `git` via a chain of tutorials
+
 ### For fun
 <div> 
 <center>
@@ -353,14 +361,6 @@ All the best,
 </div>
 
 [source](https://dzone.com/articles/git-forked)
-
-### Supplementary materials and links
-
-The following links are very useful:
-
-- [GitHub Glossary](https://help.github.com/articles/github-glossary) for all terminology
-- [This online book](https://git-scm.com/book/en/v2) is most comprehensive as a resource
-- [use this webpage](http://try.github.io) to try and experience `git` via a chain of tutorials
 
 ## Column 2
 
