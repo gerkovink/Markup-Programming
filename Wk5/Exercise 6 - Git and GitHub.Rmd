@@ -1,8 +1,13 @@
 ---
 title: "Exercise 6: Git and GitHub"
 author: "Gerko Vink"
-date: "Markup languages and reproducible programming in statistics"
-output: html_document
+date: "Markup Languages and Reproducible Programming in Statistics"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 5
+    toc_float: true
+    number_sections: true
 ---
 
 ---
@@ -25,7 +30,7 @@ Gerko
 
 ---
 
-#### `Git`
+# `Git`
 `Git` is a free and open source version control system for text files. It can handle extensive change logging for you, no matter the size of the project. `Git` is fast and efficient, but its effectiveness depends also on the frequency you instruct it to log your project's changes. 
 
 You can see `Git` as a blank canvas that starts at a certain point in time. Every time you (or others) instruct `Git` to log any changes that have been made, `Git` adds the changes that are made to this canvas. We call the changes to the canvas [`commits`](https://help.github.com/articles/github-glossary/#commit). With every `commit` an extensive log is created that includes at least the following information:
@@ -41,7 +46,7 @@ If you'd like to know much more about `Git`, [this online book](https://git-scm.
 
 ---
 
-#### `GitHub`
+# `GitHub`
 `GitHub` is the social and user interface to `Git` that allows you to work in [repositories](https://help.github.com/articles/github-glossary/#repository). These repositories can be seen as project folders in which you publish your work, but you can also use them as test sites for development, testing, etcetera. There is a distinction between [private repositories](https://help.github.com/articles/github-glossary/#private-repository) (only for you and those you grant access) and public repositories (visible for everyone). 
 
 Your public repositories can be viewed and [forked](https://help.github.com/articles/github-glossary/#fork) by everyone. `Forking` is when other people create a copy of your repository on their own account. This allows them to work on a repository without affecting the `master`. You can also do this yourself, but then the process is called [`branching`](https://help.github.com/articles/github-glossary/#branch) instead of forking. If you create a copy of a repository that is offline, the process is called [`cloning`](https://help.github.com/articles/github-glossary/#clone). 
@@ -60,28 +65,28 @@ You can see that this process requires package `devtools` that expands the `R` f
 
 ---
 
-#### Installing `Git`
+# Installing `Git`
 
-##### Installing on Mac
+## Installing on Mac
 I suggest you install `Git` by downloading and installing [`GitHub Desktop`](https://desktop.github.com). `GitHub`'s desktop application is a nice GUI and, naturally, integrates well into the repository workflow on `GitHub`. 
 
 When installed, you can go to `GitHub Desktop > Install Command Line Tool`
 
 After a reboot, all should be set. 
 
-##### Installing on Windows
+## Installing on Windows
 Download and install [`Git for Windows`](https://git-for-windows.github.io), Then download and install [`GitHub Desktop`](https://desktop.github.com). `GitHub`'s desktop application is a nice GUI and, naturally, integrates well into the repository workflow on `GitHub`. 
 
 After a reboot, all should be set. 
 
 ---
 
-#### Command line interface vs. GUI
+# Command line interface vs. GUI
 Ultimately, you'll want to learn how to use `Git` through the command line. It offers better functionality. Again, [take this 15-minute course](https://try.github.io/levels/1/challenges/1) to get a gentle introduction,
 
 ---
 
-#### `Git` and `RStudio`
+# `Git` and `RStudio`
 
 To link `Git` and `RStudio`, follow [this document](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 
@@ -89,7 +94,7 @@ To learn more about maintaining a package as `GitHub` repository within `RStudio
 
 ---
 
-#### .gitignore
+# .gitignore
 GitHub sees every file in your repository as one of the following three
 
 - **tracked files** that have been (previously) staged and committed
@@ -100,13 +105,13 @@ It may be wise to instruct `Git` to ignore changes in some files. For example, c
 
 ---
 
-#### SSH keys
+# SSH keys
 
 Follow [this tutorial](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account) to add an SSH key to your GitHub account. With an SSH key you can identify yourself to an online server (in this case the `GitHub` server) without having to log in every time. It is like your machine having access to an online server through a unique biometric security measure, but instead of biometric data a bits-and-bytes hash code is communicated every time. You will need an SSH key to link `RStudio` to your `GitHub` repository. 
 
 --- 
 
-#### 2-Factor Authentication
+# 2-Factor Authentication
 If you use `GitHub`'s 2FA functionality - you should! - your username and password are not sufficient to `push` `commits` to `GitHub` through `RStudio`. To solve this follow these steps on [github.com](https://github.com):
 
 1. Log in to your account
@@ -124,7 +129,7 @@ In `RStudio`, paste the generated token in the password field when `RStudio` ask
 
 ---
 
-#### Exercise
+# Exercise
 
 Add `Git` functionality to the project of last week's exercise and publish that project on GitHub. 
 
