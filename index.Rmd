@@ -339,7 +339,7 @@ This week's documents:
 
 ## Column 1
 
-### Beamer and equations
+### Git and GitHub
 
 This week we’ll cover version control with [git](https://git-scm.com) in [`RStudio`](https://www.rstudio.com)
 
@@ -387,15 +387,38 @@ This week's documents:
 
 ## Column 1
 
-### This Week
-A real demonstration this is. 
+### Presentations with `rmarkdown`
 
+This week we’ll cover presentations with `rmarkdown` in [`RStudio`](https://www.rstudio.com)
+
+All the best, 
+
+[Gerko](www.gerkovink.com)
+
+### Supplementary materials and links
+
+The following link is very useful:
+
+- [The definitive `rmarkdown` Guide](https://bookdown.org/yihui/rmarkdown/)
+
+### For fun
+<div> 
+<center>
+<img src="Wk6/forfun.jpg" width="60%">
+</center>
+</div>
+
+[source](https://www.reddit.com/r/ProgrammerHumor/comments/9w19dv/we_all_know_someone_whos_done_that/)
 
 ## Column 2
 
 ### Exercise
 
-### Supplementary materials and links
+This week's documents:
+
+- [Exercise 7.html](Wk6/Exercise_7_-_presentations_with_rmarkdown.html)
+- [Exercise 7.Rmd](https://raw.githubusercontent.com/gerkovink/Markup-Programming/master/Wk6/Exercise%207%20-%20presentations%20with%20rmarkdown.Rmd?token=AGegKBdG_PcSgsOf01TE-qE32Ue-PC9xks5cDgZTwA%3D%3D)
+- [Background.zip](Wk6/Background.zip)
 
 # Week 7
 
