@@ -447,9 +447,8 @@ All the best,
 
 This week's documents:
 
-- [Exercise 7.html](Wk7/Exercise_8_-_GitHub_pages_and_Shiny.html)
-- [Exercise 7.Rmd](https://raw.githubusercontent.com/gerkovink/Markup-Programming/master/Wk7/Exercise%208%20-%20presentations%20with%20rmarkdown.Rmd?token=AGegKBdG_PcSgsOf01TE-qE32Ue-PC9xks5cDgZTwA%3D%3D)
-- [Background.zip](Wk6/Background.zip)
+- [Exercise 8.html](Wk7/Exercise_8_-_GitHub_pages_and_Shiny.html)
+- [Exercise 8.Rmd](https://raw.githubusercontent.com/gerkovink/Markup-Programming/master/Wk7/Exercise%208%20-%20presentations%20with%20rmarkdown.Rmd?token=AGegKBdG_PcSgsOf01TE-qE32Ue-PC9xks5cDgZTwA%3D%3D)
 
 ### For wowz
 <div> 
