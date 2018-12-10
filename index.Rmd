@@ -424,24 +424,40 @@ This week's documents:
 
 ## Column 1
 
-### This Week
+### Online representation
+
+This week we’ll cover `shiny` web-apps and `GitHub` pages. `shiny` is a wonderfull means to showcase your work and offer online services. `GitHub` pages is the way for developers and professionals to introduce yourself to the world and host a personal webpage right from your `GitHub`. And all this is free!
+
+All the best, 
+
+[Gerko](www.gerkovink.com)
+
+### For fun
+<div> 
+<center>
+<img src="Wk7/forfun.png" width="100%">
+</center>
+</div>
+
+[source](https://www.reddit.com/r/ProgrammerHumor/comments/a1j42g/merriamwebster_finally_added_a_definition_for/) 
 
 ## Column 2
 
 ### Exercise
 
-### Supplementary materials and links
+This week's documents:
 
-# Week 8
+- [Exercise 7.html](Wk7/Exercise_8_-_GitHub_pages_and_Shiny.html)
+- [Exercise 7.Rmd](https://raw.githubusercontent.com/gerkovink/Markup-Programming/master/Wk7/Exercise%208%20-%20presentations%20with%20rmarkdown.Rmd?token=AGegKBdG_PcSgsOf01TE-qE32Ue-PC9xks5cDgZTwA%3D%3D)
+- [Background.zip](Wk6/Background.zip)
 
-## Column 1
+### For wowz
+<div> 
+<center>
+<img src="https://g.redditmedia.com/wuVd9DqvSIpCpvwksHQPeyyn43dGmPxHuXhLG9uXN04.gif?fit=crop&crop=faces%2Centropy&arh=2&w=960&fm=mp4&mp4-fragmented=false&s=63d670ca5ca29e52bef6e3f97e7184d3" width="100%">
+</center>
+</div>
 
-### This Week
-
-## Column 2
-
-### Exercise
-
-### Supplementary materials and links
+[source](https://g.redditmedia.com/wuVd9DqvSIpCpvwksHQPeyyn43dGmPxHuXhLG9uXN04.gif?fit=crop&crop=faces%2Centropy&arh=2&w=960&fm=mp4&mp4-fragmented=false&s=63d670ca5ca29e52bef6e3f97e7184d3)
 
 
